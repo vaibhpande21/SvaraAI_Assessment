@@ -11,6 +11,11 @@ label_encoder = joblib.load("label_encoder.pkl")
 app = Flask(__name__)
 
 
+@app.route("/", methods=["GET"])
+def home():
+    return {"message": "Email Reply Classifier API is running!"}
+
+
 @app.route("/predict", methods=["POST"])
 def predict():
     data = request.get_json(force=True)

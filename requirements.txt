@@ -6,3 +6,4 @@ seaborn
 nltk
 contractions
 scikit-learn
+lightgbm

@@ -7,3 +7,5 @@ nltk
 contractions
 scikit-learn
 lightgbm
+transformers
+datasets

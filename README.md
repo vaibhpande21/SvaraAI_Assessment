@@ -41,6 +41,8 @@ pip install -r requirements.txt
 ---
 
 ### 2️⃣ Start the Flask API
+
+- load best model, vectorixer and label encoder
 ```bash
 python text_class.py
 ```

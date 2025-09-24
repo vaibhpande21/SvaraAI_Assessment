@@ -27,7 +27,7 @@ It includes:
 ### 1️⃣ Local Setup
 ```bash
 # Clone repo
-git clone <https://github.com/vaibhpande21/SvaraAI_Assessment.git>
+git clone https://github.com/vaibhpande21/SvaraAI_Assessment.git
 cd SvaraAI_Assessment
 
 # Create virtual env
